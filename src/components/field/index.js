@@ -347,7 +347,7 @@ export default class TextField extends PureComponent {
             onContentSizeChange={this.onContentSizeChange}
             onFocus={this.onFocus}
             onBlur={this.onBlur}
-            value={text}
+            value={this.props.value}
             ref={this.updateRef}
           />
         </Animated.View>
